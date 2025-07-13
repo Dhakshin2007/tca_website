@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { NAV_LINKS } from '../constants';
@@ -13,8 +12,11 @@ const Header: React.FC = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <Link to="/">
+            <Link to="/" className="flex items-center space-x-3">
               <Logo className="h-10 w-auto" />
+              <span className="text-2xl font-extrabold text-amber-400 tracking-tight font-poppins hidden sm:inline">
+                TCA IIT Ropar
+              </span>
             </Link>
           </div>
           <div className="hidden md:block">
