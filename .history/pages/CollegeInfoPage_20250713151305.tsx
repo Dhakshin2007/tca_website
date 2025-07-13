@@ -43,7 +43,7 @@ const CollegeInfoPage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <InfoCard 
                     title="Institute Location" 
-                    imageUrl="/Spiral.jpg"
+                    imageUrl="https://picsum.photos/seed/location/600/400"
                     linkUrl="https://earth.google.com/web/@30.96688819,76.47214869,288.91025875a,1207.90782205d,60y,169.82445604h,0t,0r/data=CgRCAggBOgMKATBCAggASg0I____________ARAA"
                 >
                     <p>IIT Ropar is nestled on the banks of the Sutlej River in Rupnagar, Punjab. The permanent campus is spread over 500 acres, offering a serene and picturesque environment that is perfect for learning and research. Its location provides a peaceful escape while being well-connected to major cities like Chandigarh.</p>
