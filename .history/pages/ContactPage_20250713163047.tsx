@@ -89,8 +89,7 @@ ${formData.message}
              <div className="bg-gray-800/50 p-8 rounded-lg shadow-xl">
                 <h3 className="text-xl font-bold text-white mb-4">Contact Information</h3>
                 <ul className="space-y-4 text-gray-300">
-                    <li className="flex items-center"><Icon name="mail" className="w-5 h-5 mr-3 text-amber-400" /> <a href="mailto:tcaiitropa
-                    r@gmail.com" className="hover:text-amber-300">tcaiitropar@gmail.com</a></li>
+                    <li className="flex items-center"><Icon name="mail" className="w-5 h-5 mr-3 text-amber-400" /> <a href="mailto:tcaiitrpr@gmail.com" className="hover:text-amber-300">tcaiitrpr@gmail.com</a></li>
                     <li className="flex items-start"><Icon name="map" className="w-5 h-5 mr-3 text-amber-400 mt-1" /> IIT Ropar, Rupnagar, Punjab, India - 140001</li>
                 </ul>
                 <div className="flex space-x-6 mt-6">
