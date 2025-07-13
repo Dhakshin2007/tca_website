@@ -59,7 +59,11 @@ const JuniorsSection = () => (
             <p className="mt-4 text-gray-300">Welcome to the IIT Ropar family! We are thrilled to have you here. The Telugu Cultural Association is your home on campus. We're here to help you settle in, make friends, and celebrate our shared culture.</p>
             <h3 className="text-2xl font-bold text-white mt-8">Campus Survival Guide</h3>
             <p className="mt-2 text-gray-300">To help you get started, we've compiled a survival guide with tips on academics, hostel life, food, and navigating the campus. Download it and get a head start!</p>
-            <a href="https://drive.google.com/file/d/1Dp0GgfUVdL5W1pQbERkn0RmRbq3VMiLq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-md hover:bg-amber-400 transition-colors">Download Guide (PDF)</a>
+            <div className="mt-4 flex flex-wrap gap-4">
+                <a href="https://drive.google.com/file/d/1Dp0GgfUVdL5W1pQbERkn0RmRbq3VMiLq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-md hover:bg-amber-400 transition-colors">Download Guide (PDF)</a>
+                <a href="https://docs.google.com/document/d/1Nye9iAh_VHODnMgyPABfSAczzmcML1PL4-AnRIi7bTE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-md hover:bg-amber-400 transition-colors">How to reach (PDF)</a>
+                <a href="https://iitropartourr.netlify.app/" target="_blank" rel="noopener noreferrer" className="inline-block bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-md hover:bg-amber-400 transition-colors">Campus Tour</a>
+            </div>
         </div>
         <div className="bg-gray-800 p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-white">Your Telugu Mentors</h3>
