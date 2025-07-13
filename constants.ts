@@ -109,7 +109,7 @@ export const DELEGATES: Delegate[] = [
   { name: 'Poorna Vadhan', entryNumber: '2024MCB1306', position: 'ISMP Ug Mentor' },
   { name: 'Pola Sai Sujith', entryNumber: '2024MCB1309', position: 'ISMP Ug Mentor' },
   { name: 'Samhitha', entryNumber: '2024MCB1291', position: 'ISMP Ug Mentor' },
-  { name: 'Hansika', entryNumber: '2024CSB1109', position: 'ISMP Ug Mentor' },
+  { name: 'Hansika', entryNumber: '2024CSB1109', position: 'ISMP Ug Mentor, SWE , Kshitij' },
   { name: 'B Sujay', entryNumber: '2024CSB1110', position: 'ISMP Ug Mentor , Automotive' },
   { name: 'Dedeep Vasireddy', entryNumber: '2024MEB1337', position: 'Iota Cluster' },
   { name: 'Arun Gopi', entryNumber: '2024CSB1138', position: 'Coordinator (BOWA)' },
