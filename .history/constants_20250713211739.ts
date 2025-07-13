@@ -129,7 +129,6 @@ export const PROFESSORS: Professor[] = [
   { name: 'Deepti', department: 'CSE Dept' },
   { name: 'A V RaviTeja', department: 'Electrical Dept' },
   { name: 'Lava Kumar', department: 'Metallurgy Dept' },
-  { name: 'Prabhakar', department: 'Mathematics Dept' },
 ];
 
 export const DELEGATES: Delegate[] = [

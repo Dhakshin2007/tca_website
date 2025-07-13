@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { TEAM_MEMBERS_2024, TEAM_MEMBERS_2023, PREVIOUS_TEAMS_DATA } from '../constants';
-import { TeamMember, PreviousTeamMember } from '../types';
+import { TEAM_MEMBERS_2024, TEAM_MEMBERS_2023 } from '../constants';
+import { TeamMember } from '../types';
 import SectionWrapper from '../components/SectionWrapper';
 import Icon from '../components/Icon';
 import { motion } from 'framer-motion';
@@ -44,20 +44,6 @@ const TeamPage: React.FC = () => {
     return [];
   }, [selectedYear]);
 
-  const previousTeams = useMemo(() => {
-    const groupedData: Record<string, PreviousTeamMember[]> = {};
-    PREVIOUS_TEAMS_DATA.forEach((member) => {
-      const year = member.teamYear;
-      if (!groupedData[year]) {
-        groupedData[year] = [];
-      }
-      groupedData[year].push(member);
-    });
-    return groupedData;
-  }, []);
-
-  const previousTeamYears = Object.keys(previousTeams).sort((a, b) => b.localeCompare(a)); // Sort years descending
-
   return (
     <div className="min-h-screen">
       <div className="bg-gray-800 py-16 text-center">
@@ -66,7 +52,6 @@ const TeamPage: React.FC = () => {
       </div>
 
       <SectionWrapper idName="team-list">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">Current Office Bearers</h2>
         <div className="flex justify-center mb-12">
           <div className="flex space-x-2 bg-gray-800 p-2 rounded-full">
             {teams.map(team => (
@@ -86,44 +71,6 @@ const TeamPage: React.FC = () => {
               <TeamMemberCard key={member.id} member={member} />
             ))}
         </motion.div>
-      </SectionWrapper>
-      
-      <SectionWrapper idName="previous-teams">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">Previous Office Bearers</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            {previousTeamYears.map(year => (
-                <motion.div 
-                    key={year}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
-                    transition={{ duration: 0.5 }}
-                    className="bg-gray-800/50 p-8 rounded-xl shadow-lg border border-amber-500/20"
-                >
-                    <h3 className="text-2xl font-bold text-amber-400 mb-6 border-b-2 border-amber-500/30 pb-2">
-                        Team of {year}
-                    </h3>
-                    <motion.ul 
-                        className="space-y-4"
-                        variants={{ show: { transition: { staggerChildren: 0.07 } } }}
-                        initial="hidden"
-                        whileInView="show"
-                        viewport={{ once: true }}
-                    >
-                        {previousTeams[year].map((member, index) => (
-                            <motion.li 
-                                key={`${member.name}-${index}`}
-                                className="flex justify-between items-center"
-                                variants={{ hidden: { opacity: 0, x: -20 }, show: { opacity: 1, x: 0 } }}
-                            >
-                                <span className="font-semibold text-white">{member.name}</span>
-                                <span className="text-gray-400 text-sm text-right">{member.role}</span>
-                            </motion.li>
-                        ))}
-                    </motion.ul>
-                </motion.div>
-            ))}
-        </div>
       </SectionWrapper>
     </div>
   );

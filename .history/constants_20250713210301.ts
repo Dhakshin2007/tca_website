@@ -1,11 +1,5 @@
 import { TeamMember, Event, Student, Professor, Delegate } from './types';
 
-type PreviousTeamMember = {
-  name: string;
-  role: string;
-  teamYear: string;
-};
-
 export const NAV_LINKS = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
@@ -25,26 +19,9 @@ export const TEAM_MEMBERS_2024: TeamMember[] = [
 
 export const TEAM_MEMBERS_2023: TeamMember[] = [
   { id: 5, name: 'Vijay Badugu', role: 'Secretary', department: 'Mechanical Department', year: '2022-26', imageUrl: '/Vijay.jpg', email: '2022meb1303@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/badugu-vijay-a28366261/' },
-  { id: 6, name: 'Pradeep', role: 'Treasurer', department: 'Electrical Department', year: '2022-26', imageUrl: '/Pradeep.jpg', email: 'a.kumari@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/sai-pradeep-2050a728a/' },
-  { id: 7, name: 'Deepak Teja Banoth', role: 'Sports Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/Deepak.jpg', email: '2022mmb1404@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/banoth-deepak-teja/' },
-  { id: 8, name: 'Kota Lohith', role: 'Cultural Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/lo.jpg', email: '2022mmb1384@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/lohith-kota-4a5891272/' },
-];
-
-export const PREVIOUS_TEAMS_DATA: PreviousTeamMember[] = [
-  // Team of 2023-24
-  { name: 'Uday Singh', role: 'President', teamYear: '2023-24' },
-  { name: 'Saran Yadav', role: 'Secretary', teamYear: '2023-24' },
-  { name: 'Uday N', role: 'Treasurer', teamYear: '2023-24' },
-  { name: 'Chaitanya', role: 'Cultural Secretary', teamYear: '2023-24' },
-  { name: 'Deekshita', role: 'Cultural Secretary', teamYear: '2023-24' },
-  { name: 'Krishna', role: 'Sports Secretary', teamYear: '2023-24' },
-  { name: 'Satya Prakash', role: 'Cultural Manager', teamYear: '2023-24' },
-  // Team of 2022-23
-  { name: 'Lashyanth', role: 'President', teamYear: '2022-23' },
-  { name: 'Harsha', role: 'General secretary', teamYear: '2022-23' },
-  { name: 'Nikilesh', role: 'Cultural Secretary (Male)', teamYear: '2022-23' },
-  { name: 'Hema Priya', role: 'Cult Secretary (Female)', teamYear: '2022-23' },
-  { name: 'Sharath', role: 'Treasurer', teamYear: '2022-23' },
+  { id: 6, name: 'Pradeep', role: 'Treasurer', department: 'Electrical Department', year: 2022-26, imageUrl: '/Pradeep.jpg', email: 'a.kumari@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/sai-pradeep-2050a728a/' },
+  { id: 7, name: 'Deepak Teja Banoth', role: 'Sports Secretary', department: 'Metallurgy Department', year: 2022-26, imageUrl: '/Deepak.jpg', email: '2022mmb1404@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/banoth-deepak-teja/' },
+  { id: 8, name: 'Kota Lohith', role: 'Cultural Secretary', department: 'Metallurgy Department', year: 2022-26, imageUrl: '/lo.jpg', email: '2022mmb1384@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/lohith-kota-4a5891272/' },
 ];
 
 
@@ -77,9 +54,9 @@ export const STUDENTS: Student[] = [
     // Electrical Engineering
     { id: 13, name: 'Kanithi Pavanrammanikanta', entryNumber: '2024eeb1214', branch: 'Electrical Engineering', batch: 2024, email: '2024eeb1214@iitrpr.ac.in' },
     { id: 14, name: 'Mudavath Sriman', entryNumber: '2023eeb1225', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1225@iitrpr.ac.in' },
-    { id: 15, name: 'P Kohith ', entryNumber: '2023eeb1232', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1232@iitrpr.ac.in' },
+    { id: 15, name: 'Manchala Sashank', entryNumber: '2023eeb1221', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1221@iitrpr.ac.in' },
     { id: 16, name: 'Manajigari Harshitha', entryNumber: '2022eeb1189', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1189@iitrpr.ac.in' },
-    { id: 17, name: 'Venkat Kommina', entryNumber: '2022EEB1225', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1225@iitrpr.ac.in' },
+    { id: 17, name: 'Bhukya Niharika', entryNumber: '2022eeb1402', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1402@iitrpr.ac.in' },
 
     // Mathematics and computing
     { id: 18, name: 'Pola Sai Sujith', entryNumber: '2024mcb1309', branch: 'Mathematics and computing', batch: 2024, email: '2024mcb1309@iitrpr.ac.in' },
@@ -116,7 +93,7 @@ export const STUDENTS: Student[] = [
 export const MENTORS: Student[] = [
     { id: 40, name: 'Manchala Sashank', entryNumber: '2023EEB1221', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1221@iitrpr.ac.in' },
     { id: 41, name: 'Kondaka Dhaneeswar', entryNumber: '2024CEB1037', branch: 'Civil Engineering', batch: 2024, email: '2024ceb1037@iitrpr.ac.in' },
-    { id: 42, name: 'S Madhu', entryNumber: '2022CSB1127', branch: 'Computer Science Engineering', batch: 2022, email: '2022csb1127@iitrpr.ac.in' },
+    { id: 42, name: 'Venkat Kommina', entryNumber: '2022EEB1225', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1225@iitrpr.ac.in' },
 ];
 
 export const PROFESSORS: Professor[] = [
@@ -126,10 +103,6 @@ export const PROFESSORS: Professor[] = [
   { name: 'S K Vipparthi', department: 'SAIDE' },
   { name: 'K R Sekhar', department: 'Electrical Dept' },
   { name: 'T V Kalyan', department: 'CSE Dept' },
-  { name: 'Deepti', department: 'CSE Dept' },
-  { name: 'A V RaviTeja', department: 'Electrical Dept' },
-  { name: 'Lava Kumar', department: 'Metallurgy Dept' },
-  { name: 'Prabhakar', department: 'Mathematics Dept' },
 ];
 
 export const DELEGATES: Delegate[] = [
@@ -148,7 +121,6 @@ export const DELEGATES: Delegate[] = [
   { name: 'Divyamshi Koppu', entryNumber: '2024MEB1363', position: 'Epicure' },
   { name: 'Ganedi Durga Tejaswi', entryNumber: '2024CHB1067', position: 'SWE , Pehchaan Ek Safar' },
   { name: 'Akkireddi Bhavya', entryNumber: '2024MEB1327', position: 'SWE , CDPC' },
-  { name: 'Balaji Naik', entryNumber: '2024MCB1290', position: 'ODAC' },
 ];
 
 

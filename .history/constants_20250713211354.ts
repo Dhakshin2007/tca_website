@@ -79,7 +79,7 @@ export const STUDENTS: Student[] = [
     { id: 14, name: 'Mudavath Sriman', entryNumber: '2023eeb1225', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1225@iitrpr.ac.in' },
     { id: 15, name: 'P Kohith ', entryNumber: '2023eeb1232', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1232@iitrpr.ac.in' },
     { id: 16, name: 'Manajigari Harshitha', entryNumber: '2022eeb1189', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1189@iitrpr.ac.in' },
-    { id: 17, name: 'Venkat Kommina', entryNumber: '2022EEB1225', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1225@iitrpr.ac.in' },
+    { id: 17, name: 'Venkat Kommina', entryNumber: '2022EEB1225', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb14@iitrpr.ac.in' },
 
     // Mathematics and computing
     { id: 18, name: 'Pola Sai Sujith', entryNumber: '2024mcb1309', branch: 'Mathematics and computing', batch: 2024, email: '2024mcb1309@iitrpr.ac.in' },
@@ -116,7 +116,7 @@ export const STUDENTS: Student[] = [
 export const MENTORS: Student[] = [
     { id: 40, name: 'Manchala Sashank', entryNumber: '2023EEB1221', branch: 'Electrical Engineering', batch: 2023, email: '2023eeb1221@iitrpr.ac.in' },
     { id: 41, name: 'Kondaka Dhaneeswar', entryNumber: '2024CEB1037', branch: 'Civil Engineering', batch: 2024, email: '2024ceb1037@iitrpr.ac.in' },
-    { id: 42, name: 'S Madhu', entryNumber: '2022CSB1127', branch: 'Computer Science Engineering', batch: 2022, email: '2022csb1127@iitrpr.ac.in' },
+    { id: 42, name: 'Venkat Kommina', entryNumber: '2022EEB1225', branch: 'Electrical Engineering', batch: 2022, email: '2022eeb1225@iitrpr.ac.in' },
 ];
 
 export const PROFESSORS: Professor[] = [
@@ -128,8 +128,6 @@ export const PROFESSORS: Professor[] = [
   { name: 'T V Kalyan', department: 'CSE Dept' },
   { name: 'Deepti', department: 'CSE Dept' },
   { name: 'A V RaviTeja', department: 'Electrical Dept' },
-  { name: 'Lava Kumar', department: 'Metallurgy Dept' },
-  { name: 'Prabhakar', department: 'Mathematics Dept' },
 ];
 
 export const DELEGATES: Delegate[] = [

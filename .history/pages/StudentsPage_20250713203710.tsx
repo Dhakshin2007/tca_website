@@ -1,5 +1,5 @@
 
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import { STUDENTS, MENTORS, DEPARTMENTS, BATCHES } from '../constants';
 import { Student } from '../types';
 import SectionWrapper from '../components/SectionWrapper';

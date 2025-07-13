@@ -1,18 +1,13 @@
+
 export interface TeamMember {
   id: number;
   name: string;
   role: string;
   department: string;
-  year: string;
+  year: number;
   imageUrl: string;
   email: string;
   linkedin?: string;
-}
-
-export interface PreviousTeamMember {
-  name: string;
-  role: string;
-  teamYear: string;
 }
 
 export interface Event {
