@@ -30,7 +30,7 @@ export const TEAM_MEMBERS_2023: TeamMember[] = [
   { id: 8, name: 'Kota Lohith', role: 'Cultural Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/lo.jpg', email: '2022mmb1384@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/lohith-kota-4a5891272/' },
 ];
 
-/*export const PREVIOUS_TEAMS_DATA: PreviousTeamMember[] = [
+export const PREVIOUS_TEAMS_DATA: PreviousTeamMember[] = [
   // Team of 2023-24
   { name: 'Uday Singh', role: 'President', teamYear: '2023-24' },
   { name: 'Saran Yadav', role: 'Secretary', teamYear: '2023-24' },
@@ -45,7 +45,7 @@ export const TEAM_MEMBERS_2023: TeamMember[] = [
   { name: 'Nikilesh', role: 'Cultural Secretary (Male)', teamYear: '2022-23' },
   { name: 'Hema Priya', role: 'Cult Secretary (Female)', teamYear: '2022-23' },
   { name: 'Sharath', role: 'Treasurer', teamYear: '2022-23' },
-];*/
+];
 
 
 export const EVENTS: Event[] = [
