@@ -1,18 +1,32 @@
-<<<<<<< HEAD
-# Run and deploy your AI Studio app
+# 🇮🇳 Telugu Cultural Association – IIT Ropar
 
-This contains everything you need to run your app locally.
+Welcome to the official website of the **Telugu Cultural Association (TCA)** at **IIT Ropar** — a dynamic, vibrant platform built to showcase the spirit of Telugu culture and community within the IIT ecosystem.
 
-## Run Locally
+> 🔗 **Live Site:** [https://tcaiitrpr.vercel.app](https://tcaiitrpr.vercel.app)
 
-**Prerequisites:**  Node.js
+---
 
+## 🎯 Project Objective
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
-# tca_website
->>>>>>> 8174379d933b050804a693892ae6498d9c470e5f
+This site acts as the digital identity of TCA at IIT Ropar:
+- 🎭 Promote Telugu cultural events and activities
+- 🧑‍🤝‍🧑 Display the TCA team and student members
+- 🎓 Assist incoming Telugu juniors with onboarding and mentorship
+- 🏫 Provide insight into IIT Ropar and Telugu life on campus
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer        | Technology                         |
+|--------------|-------------------------------------|
+| Language     | TypeScript (`.tsx`, `.ts`)         |
+| Framework    | React                              |
+| Extras       | Some `.html`, `.js`, `.json` files |
+| Deployment   | [Vercel](https://vercel.com)       |
+| Version Ctrl | Git + GitHub                       |
+
+---
+
+## 📁 Project Structure
+
