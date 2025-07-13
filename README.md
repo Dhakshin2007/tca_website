@@ -72,31 +72,31 @@ Open your browser at: http://localhost:3000
 
 💡 If you’re using CRA (Create React App) instead of Vite, the command will be npm start.
 
-🌐 Deployment
+## 🌐 Deployment
 This project is continuously deployed via Vercel.
 
 Every push to the main branch will automatically trigger a new deployment.
 
-To deploy manually:
-bash
-Copy
-Edit
+## To deploy manually:
+
 git add .
 git commit -m "Your message"
 git push origin main
-👥 Contributors
+
+
+
+## 👥 Contributors
 Dhakshin Kotha – Developer, Designer, Maintainer
+FireBase Studio by Google - Which helped me Hosting and Correcting Codes
 
-(Add other team members here if needed)
+## 📬 Contact & Social
+📧 Email: kothadhakshin123@example.com
 
-📬 Contact & Social
-📧 Email: your-email@example.com
+## 🌐 Website: https://tcaiitrpr.vercel.app
 
-🌐 Website: https://tcaiitrpr.vercel.app
+## 📷 Instagram: https://www.instagram.com/tca_iitropar/?hl=en
 
-📷 Instagram: @tcaiitrpr (optional)
-
-📝 License
+## 📝 License
 This project is intended for cultural and educational use.
 Feel free to fork, reuse, and build upon it — with credit to the original
 
