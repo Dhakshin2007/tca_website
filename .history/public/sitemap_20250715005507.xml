@@ -1,0 +1,35 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tcaiitrpr.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tcaiitrpr.vercel.app/#/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tcaiitrpr.vercel.app/#/team</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tcaiitrpr.vercel.app/#/events</loc>
+
+  <url>
+    <loc>https://tcaiitrpr.vercel.app/#/events</loc>
+    <priority>0.8</priority>
+  </url>
+  <loc>https://tcaiitrpr.vercel.app/#/students</loc>
+    <priority>0.8</priority>
+  </url>
+  <loc>https://tcaiitrpr.vercel.app/#/college-info</loc>
+    <priority>0.8</priority>
+  </url>
+  <loc>https://tcaiitrpr.vercel.app/#/notable</loc>
+    <priority>0.8</priority>
+  </url>
+  <loc>https://tcaiitrpr.vercel.app/#/contact</loc>
+    <priority>0.8</priority>
+  </url>
+  <!-- Add more URLs as needed -->
+</urlset>
+<!--  This is the sitemap for the Telugu Cultural Association at IIT Ropar. It includes all important pages of the website to help search engines index them efficiently.  -->

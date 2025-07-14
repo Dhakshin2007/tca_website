@@ -1,11 +1,9 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { EVENTS } from '../constants';
 import SectionWrapper from '../components/SectionWrapper';
-// import GeminiFunFact from '../components/GeminiFunFact';
-import { Announcements } from '../components/Announcements.tsx';
+import GeminiFunFact from '../components/GeminiFunFact';
 
 const Hero = () => (
   <div className="relative h-[80vh] min-h-[500px] flex items-center justify-center text-center text-white overflow-hidden">
@@ -73,14 +71,9 @@ const HomePage: React.FC = () => {
                 </Link>
             </div>
       </SectionWrapper>
-      <SectionWrapper idName="announcements">
-        <Announcements />
-      </SectionWrapper>
-      {/* 
       <SectionWrapper idName="gemini-fun-fact">
         <GeminiFunFact />
       </SectionWrapper>
-       */}
     </div>
   );
 };

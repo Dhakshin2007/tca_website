@@ -170,7 +170,7 @@ export const ANNOUNCEMENTS: Announcement [] = [
     content: 'The 2025-26 mentorship program is now open for sign-ups. Connect with a senior to guide you through your first year at IIT Ropar. Limited spots available!',
     link: '/students',
     linkText: 'Find Your Mentor',
-  }*/
+  }
 ];
 
 

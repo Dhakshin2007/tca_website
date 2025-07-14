@@ -46,11 +46,3 @@ export interface Delegate {
   entryNumber: string;
   position: string;
 }
-
-export interface Announcement {
-  id: number;
-  title: string;
-  content: string;
-  link?: string;
-  linkText?: string;
-}
