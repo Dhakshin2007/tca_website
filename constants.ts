@@ -144,7 +144,7 @@ export const DELEGATES: Delegate[] = [
   { name: 'Y Hemanath', entryNumber: '2024CSB1172', position: 'Esportz' },
   { name: 'K Dhaneeshwar', entryNumber: '2024CEB1037', position: 'Alpha' },
   { name: 'G Lahari', entryNumber: '2024CSB1116', position: 'SWE' },
-  { name: 'Mangona', entryNumber: '2024MCB1293', position: 'Alfaaz' },
+  { name: 'Manogona', entryNumber: '2024MCB1293', position: 'Alfaaz' },
   { name: 'Divyamshi Koppu', entryNumber: '2024MEB1363', position: 'Epicure' },
   { name: 'Ganedi Durga Tejaswi', entryNumber: '2024CHB1067', position: 'SWE , Pehchaan Ek Safar' },
   { name: 'Akkireddi Bhavya', entryNumber: '2024MEB1327', position: 'SWE , CDPC' },
