@@ -98,7 +98,7 @@ export const STUDENTS: Student[] = [
     // Metallurgical Engineering
     { id: 28, name: 'Savara Anil Kumar', entryNumber: '2024MMB1420', branch: 'Metallurgical Engineering', batch: 2024, email: '2024mmb1420@iitrpr.ac.in' },
     { id: 29, name: 'Geethika Garepally', entryNumber: '2024MMB1410', branch: 'Metallurgical Engineering', batch: 2024, email: '2024mmb1410@iitrpr.ac.in' },
-    { id: 30, name: 'Sai Charan', entryNumber: '2023mmb1340', branch: 'Metallurgical Engineering', batch: 2023, email: '2023mmb1340@iitrpr.ac.in' },
+    { id: 30, name: 'K Sanjana', entryNumber: '2023mmb1412', branch: 'Metallurgical Engineering', batch: 2023, email: '2023mmb1412@iitrpr.ac.in' },
     { id: 31, name: 'Kota Lohith', entryNumber: '2023mmb1384', branch: 'Metallurgical Engineering', batch: 2022, email: '2023mmb1384@iitrpr.ac.in' },
 
     // Civil Engineering
@@ -144,7 +144,7 @@ export const DELEGATES: Delegate[] = [
   { name: 'Y Hemanath', entryNumber: '2024CSB1172', position: 'Esportz' },
   { name: 'K Dhaneeshwar', entryNumber: '2024CEB1037', position: 'Alpha' },
   { name: 'G Lahari', entryNumber: '2024CSB1116', position: 'SWE' },
-  { name: 'Mangona', entryNumber: '2024MCB1293', position: 'Alfaaz' },
+  { name: 'Manogona', entryNumber: '2024MCB1293', position: 'Alfaaz' },
   { name: 'Divyamshi Koppu', entryNumber: '2024MEB1363', position: 'Epicure' },
   { name: 'Ganedi Durga Tejaswi', entryNumber: '2024CHB1067', position: 'SWE , Pehchaan Ek Safar' },
   { name: 'Akkireddi Bhavya', entryNumber: '2024MEB1327', position: 'SWE , CDPC' },
