@@ -40,12 +40,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start text-gray-400">
                 <Icon name="map" className="w-4 h-4 mr-2 mt-1 flex-shrink-0" />
                 <span>IIT Ropar, Rupnagar, Punjab, India - 140001</span>
-                <span className="ml-2 text-xs text-gray-500">(Near Chandigarh)</span>
-              </li>
-              <li className="flex items-start text-gray-500 italic text-sm">
-                <span className="mr-2 mt-1">🌐</span>
-                <span>Officially launched on <time dateTime="2025-07-13T17:00:00">13 July 2025 at 5:00 PM</time>
-                </span>
+                <span className="ml-2 text-xs text-gray-500">Website Established on 13th July 2025 </span>
               </li>
             </ul>
           </div>
