@@ -162,9 +162,9 @@ export const ANNOUNCEMENTS: Announcement [] = [
     title: 'Welcome Freshers of Batch 2025',
     content: 'We are Welcoming Heartfully to all the Students of Batch 2025 to IIT Ropar',
     /*link: '/events',
-    linkText: 'See Event Details',
+    linkText: 'See Event Details',*/
   },
-  {
+  /*{
     id: 3,
     title: 'Mentorship Program Sign-ups Open',
     content: 'The 2025-26 mentorship program is now open for sign-ups. Connect with a senior to guide you through your first year at IIT Ropar. Limited spots available!',
