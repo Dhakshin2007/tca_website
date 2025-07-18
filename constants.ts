@@ -164,7 +164,7 @@ export const ANNOUNCEMENTS: Announcement [] = [
     /*link: '/events',
     linkText: 'See Event Details',
   },
-  /*{
+  {
     id: 3,
     title: 'Mentorship Program Sign-ups Open',
     content: 'The 2025-26 mentorship program is now open for sign-ups. Connect with a senior to guide you through your first year at IIT Ropar. Limited spots available!',
