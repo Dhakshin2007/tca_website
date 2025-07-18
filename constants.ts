@@ -163,7 +163,7 @@ export const ANNOUNCEMENTS: Announcement [] = [
     content: 'We are Welcoming Heartfully to all the Students of Batch 2025 to IIT Ropar',
     /*link: '/events',
     linkText: 'See Event Details',*/
-  },
+  }
   /*{
     id: 3,
     title: 'Mentorship Program Sign-ups Open',
