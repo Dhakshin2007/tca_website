@@ -157,14 +157,14 @@ export const ANNOUNCEMENTS: Announcement [] = [
     title: 'Website Launch!',
     content: 'Welcome to the new official digital home of the Telugu Cultural Association at IIT Ropar! Explore our new features, get to know the team, and stay updated on all our events.',
   },
-  /*{
+  {
     id: 2,
-    title: 'Freshers Welcome Event Planned',
-    content: 'We are thrilled to announce the upcoming welcome event for all our new junior students. Get ready for an evening of fun, introductions, and delicious Telugu snacks!',
-    link: '/events',
+    title: 'Welcome Freshers of Batch 2025',
+    content: 'We are Welcoming Heartfully to all the Students of Batch 2025 to IIT Ropar',
+    /*link: '/events',
     linkText: 'See Event Details',
   },
-  {
+  /*{
     id: 3,
     title: 'Mentorship Program Sign-ups Open',
     content: 'The 2025-26 mentorship program is now open for sign-ups. Connect with a senior to guide you through your first year at IIT Ropar. Limited spots available!',
