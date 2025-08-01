@@ -90,25 +90,25 @@ export const STUDENTS: Student[] = [
 
     // Mechanical Engineering
     { id: 23, name: 'Koppu Divyamshi', entryNumber: '2024MEB1363', branch: 'Mechanical Engineering', batch: 2024, email: '2024meb1363@iitrpr.ac.in' },
-    { id: 24, name: 'Hemanth', entryNumber: '2024MEB1399', branch: 'Mechanical Engineering', batch: 2024, email: '2024meb1399@iitrpr.ac.in' },
-    { id: 25, name: 'Daggolu Sai', entryNumber: '2023MEB1338', branch: 'Mechanical Engineering', batch: 2023, email: '2023meb1338@iitrpr.ac.in' },
-    { id: 26, name: 'Juvvanapudi Nikhil', entryNumber: '2023MEB1352', branch: 'Mechanical Engineering', batch: 2023, email: '2023meb1352@iitrpr.ac.in' },
-    { id: 27, name: 'Badugu Vijay', entryNumber: '2022MEB1303', branch: 'Mechanical Engineering', batch: 2022, email: '2022meb1303@iitrpr.ac.in' },
+    { id: 24, name: 'Hemanth', entryNumber: '2024meb1399', branch: 'Mechanical Engineering', batch: 2024, email: '2024meb1399@iitrpr.ac.in' },
+    { id: 25, name: 'Daggolu Sai', entryNumber: '2023meb1338', branch: 'Mechanical Engineering', batch: 2023, email: '2023meb1338@iitrpr.ac.in' },
+    { id: 26, name: 'Juvvanapudi Nikhil', entryNumber: '2023meb1352', branch: 'Mechanical Engineering', batch: 2023, email: '2023meb1352@iitrpr.ac.in' },
+    { id: 27, name: 'Badugu Vijay', entryNumber: '2022meb1303', branch: 'Mechanical Engineering', batch: 2022, email: '2022meb1303@iitrpr.ac.in' },
     
     // Metallurgical Engineering
     { id: 28, name: 'Savara Anil Kumar', entryNumber: '2024MMB1420', branch: 'Metallurgical Engineering', batch: 2024, email: '2024mmb1420@iitrpr.ac.in' },
     { id: 29, name: 'Geethika Garepally', entryNumber: '2024MMB1410', branch: 'Metallurgical Engineering', batch: 2024, email: '2024mmb1410@iitrpr.ac.in' },
-    { id: 30, name: 'K Sanjana', entryNumber: '2023MMB1412', branch: 'Metallurgical Engineering', batch: 2023, email: '2023mmb1412@iitrpr.ac.in' },
-    { id: 31, name: 'Kota Lohith', entryNumber: '2023MMB1384', branch: 'Metallurgical Engineering', batch: 2022, email: '2023mmb1384@iitrpr.ac.in' },
+    { id: 30, name: 'K Sanjana', entryNumber: '2023mmb1412', branch: 'Metallurgical Engineering', batch: 2023, email: '2023mmb1412@iitrpr.ac.in' },
+    { id: 31, name: 'Kota Lohith', entryNumber: '2023mmb1384', branch: 'Metallurgical Engineering', batch: 2022, email: '2023mmb1384@iitrpr.ac.in' },
 
     // Civil Engineering
     { id: 32, name: 'Dhaneeshwar', entryNumber: '2024CEB1037', branch: 'Civil Engineering', batch: 2024, email: '2024ceb1037@iitrpr.ac.in' },
-    { id: 33, name: 'Aakash', entryNumber: '2023CEB1038', branch: 'Civil Engineering', batch: 2023, email: '2023ceb1038@iitrpr.ac.in' },
-    { id: 34, name: 'D Sree Lakshmi', entryNumber: '2023CEB1027', branch: 'Civil Engineering', batch: 2023, email: '2023ceb1027@iitrpr.ac.in' },
+    { id: 33, name: 'Aakash', entryNumber: '2023ceb1038', branch: 'Civil Engineering', batch: 2023, email: '2023ceb1038@iitrpr.ac.in' },
+    { id: 34, name: 'D Sree Lakshmi', entryNumber: '2023ceb1027', branch: 'Civil Engineering', batch: 2023, email: '2023ceb1027@iitrpr.ac.in' },
     { id: 35, name: 'Jaya harish', entryNumber: '2022CEB1011', branch: 'Civil Engineering', batch: 2022, email: '2022ceb1011@iitrpr.ac.in' },
     
     // Engineering Physics
-    { id: 36, name: 'Pavan G', entryNumber: '2023EPB1274', branch: 'Engineering Physics', batch: 2023, email: '2023epb1274@iitrpr.ac.in' },
+    { id: 36, name: 'Pavan G', entryNumber: '2023epb1274', branch: 'Engineering Physics', batch: 2023, email: '2023epb1274@iitrpr.ac.in' },
     { id: 37, name: 'Hari', entryNumber: '2022EPB1241', branch: 'Engineering Physics', batch: 2022, email: '2022epb1241@iitrpr.ac.in' },
     { id: 38, name: 'Bhargav', entryNumber: '2022EPB1242', branch: 'Engineering Physics', batch: 2022, email: '2022epb1242@iitrpr.ac.in' },
 ];

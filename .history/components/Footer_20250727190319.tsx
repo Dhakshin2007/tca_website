@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { NAV_LINKS } from '../constants';
-import Icon from './Icon';
+import { Icon } from './Icon';
 import Logo from './Logo';
 
 const Footer: React.FC = () => {

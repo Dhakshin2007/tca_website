@@ -31,14 +31,6 @@ const Hero = () => (
         <Link to="/events" className="bg-amber-500 text-gray-900 hover:bg-amber-400 font-bold py-3 px-8 rounded-full text-lg transition-transform transform hover:scale-105">
           Explore Events
         </Link>
-        <a 
-          href="https://tally.so/r/mZrlbz"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-amber-500 text-gray-900 hover:bg-amber-400 font-bold py-3 px-8 rounded-full text-lg transition-transform transform hover:scale-105"
-        >
-          Register as a Student
-        </a>
         <Link to="/about" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition-colors">
           About Us
         </Link>
@@ -46,6 +38,7 @@ const Hero = () => (
     </motion.div>
   </div>
 );
+
 const HomePage: React.FC = () => {
   const upcomingEvents = EVENTS.filter(e => e.type === 'upcoming').slice(0, 3);
   return (

@@ -46,6 +46,7 @@ const Hero = () => (
     </motion.div>
   </div>
 );
+
 const HomePage: React.FC = () => {
   const upcomingEvents = EVENTS.filter(e => e.type === 'upcoming').slice(0, 3);
   return (

@@ -108,7 +108,7 @@ export const STUDENTS: Student[] = [
     { id: 35, name: 'Jaya harish', entryNumber: '2022CEB1011', branch: 'Civil Engineering', batch: 2022, email: '2022ceb1011@iitrpr.ac.in' },
     
     // Engineering Physics
-    { id: 36, name: 'Pavan G', entryNumber: '2023EPB1274', branch: 'Engineering Physics', batch: 2023, email: '2023epb1274@iitrpr.ac.in' },
+    { id: 36, name: 'Pavan G', entryNumber: '2023epb1274', branch: 'Engineering Physics', batch: 2023, email: '2023epb1274@iitrpr.ac.in' },
     { id: 37, name: 'Hari', entryNumber: '2022EPB1241', branch: 'Engineering Physics', batch: 2022, email: '2022epb1241@iitrpr.ac.in' },
     { id: 38, name: 'Bhargav', entryNumber: '2022EPB1242', branch: 'Engineering Physics', batch: 2022, email: '2022epb1242@iitrpr.ac.in' },
 ];
