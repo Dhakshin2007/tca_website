@@ -25,9 +25,9 @@ export const TEAM_MEMBERS_2024: TeamMember[] = [
 
 export const TEAM_MEMBERS_2023: TeamMember[] = [
   { id: 5, name: 'Vijay Badugu', role: 'Secretary', department: 'Mechanical Department', year: '2022-26', imageUrl: '/Vijay.jpg', email: '2022meb1303@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/badugu-vijay-a28366261/' },
-  { id: 6, name: 'Pradeep', role: 'Treasurer', department: 'Electrical Department', year: '2022-26', imageUrl: '/Pradeep.jpg', email: 'a.kumari@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/sai-pradeep-2050a728a/' },
-  { id: 7, name: 'Deepak Teja Banoth', role: 'Sports Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/Deepak.jpg', email: '2022mmb1404@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/banoth-deepak-teja/' },
-  { id: 8, name: 'Kota Lohith', role: 'Cultural Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/lo.jpg', email: '2022mmb1384@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/lohith-kota-4a5891272/' },
+  { id: 6, name: 'Sai Pradeep', role: 'Treasurer', department: 'Electrical Department', year: '2022-26', imageUrl: '/Pradeep.jpg', email: 'a.kumari@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/sai-pradeep-2050a728a/' },
+  { id: 7, name: 'Deepak Teja B', role: 'Sports Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/Deepak.jpg', email: '2022mmb1404@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/banoth-deepak-teja/' },
+  { id: 8, name: 'Lohith Kota', role: 'Cultural Secretary', department: 'Metallurgy Department', year: '2022-26', imageUrl: '/lo.jpg', email: '2022mmb1384@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/lohith-kota-4a5891272/' },
 ];
 
 export const PREVIOUS_TEAMS_DATA: PreviousTeamMember[] = [
