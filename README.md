@@ -28,23 +28,6 @@ This site acts as the digital identity of TCA at IIT Ropar:
 
 ---
 
-## 📁 Project Structure
-
-tca_website/
-├── public/
-│ ├── all jpg files
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Routed pages
-│ ├── assets/ # Images, logos, etc.
-│ ├── App.tsx # Root App component
-│ └── constants.tsx # React DOM render entry
-├── package.json
-├── tsconfig.json
-├── vite.config.ts # (if Vite used)
-├── README.md
-└── ...
-
 
 ---
 
@@ -68,7 +51,7 @@ bash
 Copy
 Edit
 npm run dev
-Open your browser at: http://localhost:3000
+Open your browser at: http://localhost:5173
 
 💡 If you’re using CRA (Create React App) instead of Vite, the command will be npm start.
 
