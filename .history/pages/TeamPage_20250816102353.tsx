@@ -63,7 +63,7 @@ const TeamPage: React.FC = () => {
        <div className="relative py-24 text-center overflow-hidden">
             <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-                style={{ backgroundImage: `url(https://i.postimg.cc/hjkkyCb9/team.webp)` }}
+                style={{ backgroundImage: `url(https://picsum.photos/seed/iit-ropar-team/1920/1080)` }}
             >
                 <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
             </div>

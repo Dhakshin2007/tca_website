@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { TEAM_MEMBERS_2024, TEAM_MEMBERS_2023, PREVIOUS_TEAMS_DATA } from '../constants';
 import { TeamMember, PreviousTeamMember } from '../types';
 import SectionWrapper from '../components/SectionWrapper';
-import Icon  from '../components/Icon';
+import Icon from '../components/Icon';
 import { motion } from 'framer-motion';
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => (
@@ -60,32 +60,10 @@ const TeamPage: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-       <div className="relative py-24 text-center overflow-hidden">
-            <div 
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-                style={{ backgroundImage: `url(https://i.postimg.cc/hjkkyCb9/team.webp)` }}
-            >
-                <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-            </div>
-            <div className="relative z-10 container mx-auto px-4">
-                <motion.h1 
-                    initial={{ opacity: 0, y: -20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="text-4xl md:text-5xl font-extrabold text-amber-400"
-                >
-                    Our Pillars of Strength
-                </motion.h1>
-                <motion.p 
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.2 }}
-                    className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto"
-                >
-                    Meet the dedicated individuals who lead our community.
-                </motion.p>
-            </div>
-        </div>
+      <div className="bg-gray-800 py-16 text-center">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-amber-400">Our Pillars of Strength</h1>
+        <p className="mt-4 text-lg text-gray-300">Meet the dedicated individuals who lead our community.</p>
+      </div>
 
       <SectionWrapper idName="team-list">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">Current Office Bearers</h2>

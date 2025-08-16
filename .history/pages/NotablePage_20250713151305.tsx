@@ -4,31 +4,23 @@ import { motion, Variants } from 'framer-motion';
 import { PROFESSORS, DELEGATES } from '../constants';
 
 const PageHeader = () => (
-    <div className="relative py-24 text-center overflow-hidden">
-        <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-            style={{ backgroundImage: `url(https://i.postimg.cc/kgN4XgdB/prof.webp)` }}
+    <div className="bg-gray-800 py-16 text-center">
+        <motion.h1 
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-4xl md:text-5xl font-extrabold text-amber-400"
         >
-            <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-        </div>
-        <div className="relative z-10 container mx-auto px-4">
-            <motion.h1 
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="text-4xl md:text-5xl font-extrabold text-amber-400"
-            >
-                Notable Figures
-            </motion.h1>
-            <motion.p 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="mt-4 text-lg text-gray-200 max-w-3xl mx-auto"
-            >
-                Honoring the individuals who have made significant contributions to our community.
-            </motion.p>
-        </div>
+            Notable Figures
+        </motion.h1>
+        <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mt-4 text-lg text-gray-300 max-w-3xl mx-auto"
+        >
+            Honoring the individuals who have made significant contributions to our community.
+        </motion.p>
     </div>
 );
 

@@ -54,7 +54,7 @@ export const EVENTS: Event[] = [
   { id: 4, title: 'Kingdom Screening', date: 'August 02, 2025', description: 'Kingdom is a Telugu Movie with Star Cast Vijay Devarkonda and Showing the essence of direction with Gowtham Sir', imageUrl: '/kind.avif', type: 'past' },
   { id: 5, title: 'SVSC Screening', date: 'March 07, 2024', description: "A fun night watching the classic Telugu movie 'Seethamma Vakitlo Sirimalle Chettu' with friends and popcorn.", imageUrl: '/SVSC.jpg', type: 'past' },
   { id: 3, title: 'Bathukamma 2024', date: 'October 12, 2024', description: 'A colorful floral festival celebrating the vibrant culture of Telangana and Andhra Pradesh with traditional songs and dances.', imageUrl: '/Dush_24.jpg', type: 'past', youtubeLink: 'https://drive.google.com/drive/folders/1iI_6OEfZALUv6lszThgjm-05U8Reoq6F' },
-  { id: 6, title: 'Coolie Screening', date: 'August 15, 2025', description: "Starring Rajnikanth in Action with the Director Lokesh Kanagaraj has been Screened in the Ritz Multiplex Ropar", imageUrl: '/Cool.jpg', type: 'past' },
+  { id: 6, title: 'Coolie Screening', date: 'August 15, 2025', description: "Starring Rajnikanth in Action with the Director Lokesh Kanagaraj has been Screened in the Ritz Multiplex Ropar", imageUrl: '/SVSC.jpg', type: 'past' },
 ];
 
 export const STUDENTS: Student[] = [

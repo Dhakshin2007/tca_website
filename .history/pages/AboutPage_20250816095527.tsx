@@ -3,14 +3,8 @@ import SectionWrapper from '../components/SectionWrapper';
 import { motion } from 'framer-motion';
 
 const PageHeader = () => (
-    <div className="relative py-24 text-center overflow-hidden">
-        <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-            style={{ backgroundImage: `url(https://i.postimg.cc/Y21qxSh8/about.webp)` }}
-        >
-            <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-        </div>
-        <div className="relative z-10 container mx-auto px-4">
+    <div className="bg-gray-800 py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <motion.h1 
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -23,7 +17,7 @@ const PageHeader = () => (
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="mt-4 text-lg text-gray-200 max-w-3xl mx-auto"
+                className="mt-4 text-lg text-gray-300 max-w-3xl mx-auto"
             >
                 Tracing our roots, celebrating our present, and building our future together.
             </motion.p>
@@ -110,7 +104,7 @@ const AboutPage: React.FC = () => {
             
             <SectionWrapper idName="president-message">
                 <div className="bg-gray-800 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 shadow-2xl shadow-amber-900/20">
-                    <img src="/Vij.jpg" alt="President" className="w-40 h-40 rounded-full object-cover border-4 border-amber-400" />
+                    <img src="/Uday.jpg" alt="President" className="w-40 h-40 rounded-full object-cover border-4 border-amber-400" />
                     <div>
                         <h2 className="text-3xl font-bold text-amber-400">A Message from the General Secretary</h2>
                         <blockquote className="mt-4 text-gray-300 italic border-l-4 border-amber-500 pl-4">

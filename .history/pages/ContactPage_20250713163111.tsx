@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import SectionWrapper from '../components/SectionWrapper';
-import  Icon  from '../components/Icon';
-import { motion } from 'framer-motion';
+import Icon from '../components/Icon';
 
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -40,31 +39,9 @@ ${formData.message}
 
   return (
     <div>
-      <div className="relative py-24 text-center overflow-hidden">
-          <div 
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-              style={{ backgroundImage: `url(https://picsum.photos/seed/iit-ropar-contact/1920/1080)` }}
-          >
-              <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-          </div>
-          <div className="relative z-10 container mx-auto px-4">
-              <motion.h1 
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                  className="text-4xl md:text-5xl font-extrabold text-amber-400"
-              >
-                  Get In Touch
-              </motion.h1>
-              <motion.p 
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                  className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto"
-              >
-                  We'd love to hear from you. Reach out with questions, suggestions, or just to say hello!
-              </motion.p>
-          </div>
+      <div className="bg-gray-800 py-16 text-center">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-amber-400">Get In Touch</h1>
+        <p className="mt-4 text-lg text-gray-300">We'd love to hear from you. Reach out with questions, suggestions, or just to say hello!</p>
       </div>
 
       <SectionWrapper idName="contact-form">
@@ -112,7 +89,8 @@ ${formData.message}
              <div className="bg-gray-800/50 p-8 rounded-lg shadow-xl">
                 <h3 className="text-xl font-bold text-white mb-4">Contact Information</h3>
                 <ul className="space-y-4 text-gray-300">
-                    <li className="flex items-center"><Icon name="mail" className="w-5 h-5 mr-3 text-amber-400" /> <a href="mailto:tcaiitropar@gmail.com" className="hover:text-amber-300">Mail ( Click Here )</a></li>
+                    <li className="flex items-center"><Icon name="mail" className="w-5 h-5 mr-3 text-amber-400" /> <a href="mailto:tcaiitropa
+                    r@gmail.com" className="hover:text-amber-300">tcaiitropar@gmail.com</a></li>
                     <li className="flex items-start"><Icon name="map" className="w-5 h-5 mr-3 text-amber-400 mt-1" /> IIT Ropar, Rupnagar, Punjab, India - 140001</li>
                 </ul>
                 <div className="flex space-x-6 mt-6">

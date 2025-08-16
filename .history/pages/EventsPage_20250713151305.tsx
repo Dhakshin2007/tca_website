@@ -1,11 +1,10 @@
 
-
 import React from 'react';
 import { EVENTS } from '../constants';
 import { Event } from '../types';
 import SectionWrapper from '../components/SectionWrapper';
 import { motion } from 'framer-motion';
-import Icon  from '../components/Icon';
+import Icon from '../components/Icon';
 
 const EventCard: React.FC<{ event: Event }> = ({ event }) => (
     <motion.div
@@ -48,31 +47,9 @@ const EventsPage: React.FC = () => {
 
     return (
         <div>
-            <div className="relative py-24 text-center overflow-hidden">
-                <div 
-                    className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-                    style={{ backgroundImage: `url(https://i.postimg.cc/m2ykTr4h/work.webp)` }}
-                >
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-                </div>
-                <div className="relative z-10 container mx-auto px-4">
-                    <motion.h1 
-                        initial={{ opacity: 0, y: -20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5 }}
-                        className="text-4xl md:text-5xl font-extrabold text-amber-400"
-                    >
-                        Our Celebrations
-                    </motion.h1>
-                    <motion.p 
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto"
-                    >
-                        From grand festivals to casual get-togethers, here's what's happening.
-                    </motion.p>
-                </div>
+            <div className="bg-gray-800 py-16 text-center">
+                <h1 className="text-4xl md:text-5xl font-extrabold text-amber-400">Our Celebrations</h1>
+                <p className="mt-4 text-lg text-gray-300">From grand festivals to casual get-togethers, here's what's happening.</p>
             </div>
 
             <SectionWrapper idName="upcoming-events">

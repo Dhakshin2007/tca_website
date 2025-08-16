@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SectionWrapper from '../components/SectionWrapper';
-import  Icon  from '../components/Icon';
+import { Icon  from '../components/Icon';
 import { motion } from 'framer-motion';
 
 const ContactPage: React.FC = () => {
@@ -21,7 +21,7 @@ const ContactPage: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
-    const recipientEmail = 'tcaiitropar@gmail.com';
+    const recipientEmail = 'tcaiitrpr@gmail.com';
     const subject = `TCA Website Contact: ${formData.name}`;
     const body = `You have a new message from the TCA IIT Ropar website contact form:
     
@@ -112,7 +112,7 @@ ${formData.message}
              <div className="bg-gray-800/50 p-8 rounded-lg shadow-xl">
                 <h3 className="text-xl font-bold text-white mb-4">Contact Information</h3>
                 <ul className="space-y-4 text-gray-300">
-                    <li className="flex items-center"><Icon name="mail" className="w-5 h-5 mr-3 text-amber-400" /> <a href="mailto:tcaiitropar@gmail.com" className="hover:text-amber-300">Mail ( Click Here )</a></li>
+                    <li className="flex items-center"><Icon name="mail" className="w-5 h-5 mr-3 text-amber-400" /> <a href="mailto:tcaiitrpr@gmail.com" className="hover:text-amber-300">tcaiitrpr@gmail.com</a></li>
                     <li className="flex items-start"><Icon name="map" className="w-5 h-5 mr-3 text-amber-400 mt-1" /> IIT Ropar, Rupnagar, Punjab, India - 140001</li>
                 </ul>
                 <div className="flex space-x-6 mt-6">

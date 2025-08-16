@@ -86,31 +86,9 @@ const StudentsPage: React.FC = () => {
 
     return (
         <div>
-             <div className="relative py-24 text-center overflow-hidden">
-                <div 
-                    className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-                    style={{ backgroundImage: `url(https://i.postimg.cc/TwtxtjN0/stu.webp)` }}
-                >
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-                </div>
-                <div className="relative z-10 container mx-auto px-4">
-                    <motion.h1 
-                        initial={{ opacity: 0, y: -20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5 }}
-                        className="text-4xl md:text-5xl font-extrabold text-amber-400"
-                    >
-                        Our Community
-                    </motion.h1>
-                    <motion.p 
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className="mt-4 text-lg text-gray-200 max-w-2xl mx-auto"
-                    >
-                        Connecting every Telugu student at IIT Ropar.
-                    </motion.p>
-                </div>
+            <div className="bg-gray-800 py-16 text-center">
+                <h1 className="text-4xl md:text-5xl font-extrabold text-amber-400">Our Community</h1>
+                <p className="mt-4 text-lg text-gray-300">Connecting every Telugu student at IIT Ropar.</p>
             </div>
 
             <SectionWrapper idName="students-section">

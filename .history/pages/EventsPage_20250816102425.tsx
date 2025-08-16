@@ -5,7 +5,7 @@ import { EVENTS } from '../constants';
 import { Event } from '../types';
 import SectionWrapper from '../components/SectionWrapper';
 import { motion } from 'framer-motion';
-import Icon  from '../components/Icon';
+import { Icon  from '../components/Icon';
 
 const EventCard: React.FC<{ event: Event }> = ({ event }) => (
     <motion.div
@@ -51,7 +51,7 @@ const EventsPage: React.FC = () => {
             <div className="relative py-24 text-center overflow-hidden">
                 <div 
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-                    style={{ backgroundImage: `url(https://i.postimg.cc/m2ykTr4h/work.webp)` }}
+                    style={{ backgroundImage: `url(https://picsum.photos/seed/iit-ropar-events/1920/1080)` }}
                 >
                     <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
                 </div>

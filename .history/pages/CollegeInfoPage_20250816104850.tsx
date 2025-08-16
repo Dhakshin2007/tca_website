@@ -81,7 +81,7 @@ const CollegeInfoPage: React.FC = () => {
 
                 <InfoCard 
                     title="Hostel & Food" 
-                    imageUrl="/hostel.jpg"
+                    imageUrl="https://picsum.photos/seed/hostel/600/400"
                     linkUrl="https://www.iitrpr.ac.in/student-council/boha.php"
                 >
                     <p>Life at IIT Ropar is comfortable with well-maintained hostels for all students. Each hostel has its own mess providing a variety of nutritious and tasty food options, catering to different dietary preferences. The messes ensure a mix of North and South Indian cuisines, making everyone feel at home.</p>
@@ -95,13 +95,13 @@ const CollegeInfoPage: React.FC = () => {
                     <p>The campus culture is a vibrant blend of diverse backgrounds. With numerous clubs and societies, there's always something happening. Zeitgeist, our annual cultural fest, and Advitiya, our technical fest, are major highlights, attracting participants from all over the country.</p>
                 </InfoCard>
                 
-                <InfoCard title="Telugu Culture on Campus" imageUrl="https://i.postimg.cc/CKm60kPJ/get.jpg">
+                <InfoCard title="Telugu Culture on Campus" imageUrl="https://picsum.photos/seed/teluguculture/600/400">
                     <p>The Telugu community is an integral and vibrant part of IIT Ropar's cultural fabric. Through the Telugu Cultural Association (TCA), we celebrate our festivals like Sankranti, Ugadi, and Bathukamma with great fervor. These events bring a piece of our home to the campus, creating a strong bond among students and celebrating our rich heritage together.</p>
                 </InfoCard>
 
                  <InfoCard 
                     title="Academic Excellence" 
-                    imageUrl="https://i.postimg.cc/t4mxHgdW/sab.jpg"
+                    imageUrl="https://picsum.photos/seed/academics/600/400"
                     linkUrl="https://www.iitrpr.ac.in/iitrpr-academics"
                  >
                     <p>IIT Ropar is committed to excellence in education and research. With a distinguished faculty and a rigorous curriculum, the institute is at the forefront of technological innovation. Students are encouraged to engage in research projects and participate in international collaborations.</p>

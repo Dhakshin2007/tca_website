@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { TEAM_MEMBERS_2024, TEAM_MEMBERS_2023, PREVIOUS_TEAMS_DATA } from '../constants';
 import { TeamMember, PreviousTeamMember } from '../types';
 import SectionWrapper from '../components/SectionWrapper';
-import Icon  from '../components/Icon';
+import { Icon } from '../components/Icon';
 import { motion } from 'framer-motion';
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => (
@@ -63,7 +63,7 @@ const TeamPage: React.FC = () => {
        <div className="relative py-24 text-center overflow-hidden">
             <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-                style={{ backgroundImage: `url(https://i.postimg.cc/hjkkyCb9/team.webp)` }}
+                style={{ backgroundImage: `url(https://picsum.photos/seed/iit-ropar-team/1920/1080)` }}
             >
                 <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
             </div>

@@ -7,7 +7,7 @@ const PageHeader = () => (
     <div className="relative py-24 text-center overflow-hidden">
         <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-            style={{ backgroundImage: `url(https://i.postimg.cc/kgN4XgdB/prof.webp)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/vBhf1vFx/IMG-8062.jpg)` }}
         >
             <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
         </div>

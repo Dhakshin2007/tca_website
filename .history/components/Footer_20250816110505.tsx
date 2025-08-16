@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <ul className="mt-4 space-y-2 text-sm">
               <li className="flex items-start text-gray-400">
                 <Icon name="mail" className="w-4 h-4 mr-2 mt-1 flex-shrink-0" />
-                <a href="mailto:tcaiitropar@gmail.com" className="hover:text-amber-400">tcaiitropar@gmail.com</a>
+                <a href="mailto:tcaiitropr@gmail.com" className="hover:text-amber-400">tcaiitrpr@gmail.com</a>
               </li>
               <li className="flex items-start text-gray-400">
                 <Icon name="map" className="w-4 h-4 mr-2 mt-1 flex-shrink-0" />

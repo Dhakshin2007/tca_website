@@ -81,7 +81,7 @@ const CollegeInfoPage: React.FC = () => {
 
                 <InfoCard 
                     title="Hostel & Food" 
-                    imageUrl="/hostel.jpg"
+                    imageUrl="https://picsum.photos/seed/hostel/600/400"
                     linkUrl="https://www.iitrpr.ac.in/student-council/boha.php"
                 >
                     <p>Life at IIT Ropar is comfortable with well-maintained hostels for all students. Each hostel has its own mess providing a variety of nutritious and tasty food options, catering to different dietary preferences. The messes ensure a mix of North and South Indian cuisines, making everyone feel at home.</p>

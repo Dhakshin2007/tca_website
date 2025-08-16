@@ -6,7 +6,7 @@ const PageHeader = () => (
     <div className="relative py-24 text-center overflow-hidden">
         <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-            style={{ backgroundImage: `url(https://i.postimg.cc/Y21qxSh8/about.webp)` }}
+            style={{ backgroundImage: `url(https://picsum.photos/seed/iit-ropar-about/1920/1080)` }}
         >
             <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
         </div>
@@ -110,7 +110,7 @@ const AboutPage: React.FC = () => {
             
             <SectionWrapper idName="president-message">
                 <div className="bg-gray-800 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 shadow-2xl shadow-amber-900/20">
-                    <img src="/Vij.jpg" alt="President" className="w-40 h-40 rounded-full object-cover border-4 border-amber-400" />
+                    <img src="/Vij" alt="President" className="w-40 h-40 rounded-full object-cover border-4 border-amber-400" />
                     <div>
                         <h2 className="text-3xl font-bold text-amber-400">A Message from the General Secretary</h2>
                         <blockquote className="mt-4 text-gray-300 italic border-l-4 border-amber-500 pl-4">
