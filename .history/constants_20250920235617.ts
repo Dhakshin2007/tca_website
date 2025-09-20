@@ -35,12 +35,12 @@ export const TEAM_MEMBERS_2023: TeamMember[] = [
 export const PREVIOUS_TEAMS_DATA: PreviousTeamMember[] = [
   // Team of 2023-24
   { name: 'Uday Singh', role: 'President', teamYear: '2023-24' },
-  { name: 'Satya Prakash', role: 'Cultural Manager', teamYear: '2023-24' },
-  { name: 'Saran Yadav', role: 'General Secretary', teamYear: '2023-24' },
+  { name: 'Saran Yadav', role: 'Secretary', teamYear: '2023-24' },
   { name: 'Uday N', role: 'Treasurer', teamYear: '2023-24' },
-  { name: 'Krishna', role: 'Sports Secretary', teamYear: '2023-24' },
   { name: 'Chaitanya', role: 'Cultural Head', teamYear: '2023-24' },
   { name: 'Deekshita', role: 'Cultural Secretary', teamYear: '2023-24' },
+  { name: 'Krishna', role: 'Sports Secretary', teamYear: '2023-24' },
+  { name: 'Satya Prakash', role: 'Cultural Manager', teamYear: '2023-24' },
   // Team of 2022-23
   { name: 'Lashyanth', role: 'President', teamYear: '2022-23' },
   { name: 'Harsha', role: 'General secretary', teamYear: '2022-23' },
