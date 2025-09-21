@@ -20,7 +20,7 @@ export const TEAM_MEMBERS_2024: TeamMember[] = [
   { id: 1, name: 'Rajesh Naik', role: 'General Secretary', department: 'Mechanical Department', year: '2023-27', imageUrl: './rajesh.jpg', email: '2023meb1373@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/tejavath-rajesh-naik-39876a335/' },
   { id: 2, name: 'Sai Mohith Reddy', role: 'Treasurer', department: 'Mechanical Department', year: '2023-27', imageUrl: './mohith.jpg', email: '2023meb1338@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/daggolu-sai-mohith-reddy-2b33611b3/' },
   { id: 3, name: 'Arun Rathod', role: 'Sports Secretary', department: 'School of Artificial Intelligence & Data Engineering', year: '2023-27', imageUrl: './Arun.jpg', email: '2023aib1014@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/arun-rathlavath-751031287/' },
-  { id: 4, name: 'Akash M', role: 'Cultural Secretary ( M )', department: 'Civil Department', year: '2023-27', imageUrl: './akash.jpg', email: '2023ceb1038@iitrpr.ac.in', linkedin: '#' },
+  { id: 4, name: 'Akash M', role: 'Cultural Secretary ( M ', department: 'Civil Department', year: '2023-27', imageUrl: './akash.jpg', email: '2023ceb1038@iitrpr.ac.in', linkedin: '#' },
   { id: 9, name: 'Nikitha K', role: 'Cultural Secretary ( F )', department: 'Civil Department', year: '2023-27', imageUrl: './nikitha.jpg', email: '2023ceb1033@iitrpr.ac.in', linkedin: '#' },
   { id: 10, name: 'Sree Lakshmi D', role: 'Media & OutReach', department: 'Civil Department', year: '2023-27', imageUrl: './sree.jpg', email: '2023ceb1027@iitrpr.ac.in', linkedin: 'https://www.linkedin.com/in/desireddy-sreelakshmi-53639028a/' },
 ];
