@@ -116,7 +116,7 @@ const AboutPage: React.FC = () => {
                         <blockquote className="mt-4 text-gray-300 italic border-l-4 border-amber-500 pl-4">
                             "It is with immense pride that I welcome you to the official home of the Telugu Cultural Association. Our association is more than just a group; it's a family. We strive to create unforgettable experiences and a strong support system for all our members. Let's continue to celebrate our culture with passion and unity!"
                         </blockquote>
-                        <p className="mt-4 font-semibold text-white">Jarpula Uday Singh, President (2024)</p>
+                        <p className="mt-4 font-semibold text-white">Vijay Badugu, President (2024)</p>
                     </div>
                 </div>
             </SectionWrapper>
