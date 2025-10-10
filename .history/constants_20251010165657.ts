@@ -51,7 +51,7 @@ export const PREVIOUS_TEAMS_DATA: PreviousTeamMember[] = [
 
 
 export const EVENTS: Event[] = [
-  { id: 1, title: 'Bathukamma 2025', date: 'October 02, 2025', description: 'Experience the floral festival of Telangana and Andhra Pradesh. Join us for a vibrant celebration with traditional songs, dances, and beautifully arranged flower stacks.', imageUrl: '/Dush_25.jpg', type: 'past' , youtubeLink: 'https://drive.google.com/drive/folders/1eGTUyuv_tqfQSe5JPOHaSGQRZ4-r8vYx' },
+  { id: 1, title: 'Bathukamma 2025', date: 'October 02, 2025', description: 'Experience the floral festival of Telangana and Andhra Pradesh. Join us for a vibrant celebration with traditional songs, dances, and beautifully arranged flower stacks.', imageUrl: '/Dush_25.jpg', type: '' },
   { id: 2, title: 'Fresher Interaction 2025', date: 'August 07 2025', description: 'A warm welcome to all the new Telugu students joining the IIT Ropar family.', imageUrl: '/fresh_25.jpg', type: 'past' },
   { id: 4, title: 'Kingdom Screening', date: 'August 02, 2025', description: 'Kingdom is a Telugu Movie with Star Cast Vijay Devarkonda and Showing the essence of direction with Gowtham Sir', imageUrl: '/kind.avif', type: 'past' },
   { id: 5, title: 'SVSC Screening', date: 'March 07, 2024', description: "A fun night watching the classic Telugu movie 'Seethamma Vakitlo Sirimalle Chettu' with friends and popcorn.", imageUrl: '/SVSC.jpg', type: 'past' },
