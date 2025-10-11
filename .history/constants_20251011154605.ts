@@ -198,8 +198,8 @@ export const ALUMNI: Alumni[] = [
     currentRole: 'Business Technology Solutions associate',
     company: 'ZS Associates, Pune',
     imageUrl: './satya.jpg',
-    linkedin: 'https://www.linkedin.com/in/satya-prakash-gochipatla-5ba74a249/?originalSubdomain=in',
-    email: 'gsp883337@gmail.com'
+    linkedin: 'https://www.linkedin.com/',
+    email: 'gopi.k@example.com'
   },
   // {
   //   id: 2,

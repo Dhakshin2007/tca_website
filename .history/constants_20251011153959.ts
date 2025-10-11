@@ -190,25 +190,25 @@ export const DEPARTMENTS = [
 ].sort();
 export const BATCHES = [2024, 2023, 2022];
 
-export const ALUMNI: Alumni[] = [
-  {
-    id: 1,
-    name: 'Gochipatla Satya Prakash',
-    batch: '2021-2025',
-    currentRole: 'Business Technology Solutions associate',
-    company: 'ZS Associates, Pune',
-    imageUrl: './satya.jpg',
-    linkedin: 'https://www.linkedin.com/in/satya-prakash-gochipatla-5ba74a249/?originalSubdomain=in',
-    email: 'gsp883337@gmail.com'
-  },
-  // {
-  //   id: 2,
-  //   name: 'Sravya Reddy',
-  //   batch: '2018-2022',
-  //   currentRole: 'Data Scientist',
-  //   company: 'Microsoft',
-  //   imageUrl: 'https://picsum.photos/seed/sravya/400/400',
-  //   linkedin: 'https://www.linkedin.com/',
-  //   email: 'sravya.r@example.com'
-  // }
-];
+// export const ALUMNI: Alumni[] = [
+//   {
+//     id: 1,
+//     name: 'Gopi Krishna',
+//     batch: '2019-2023',
+//     currentRole: 'Software Engineer',
+//     company: 'Google',
+//     imageUrl: 'https://picsum.photos/seed/gopi/400/400',
+//     linkedin: 'https://www.linkedin.com/',
+//     email: 'gopi.k@example.com'
+//   },
+//   {
+//     id: 2,
+//     name: 'Sravya Reddy',
+//     batch: '2018-2022',
+//     currentRole: 'Data Scientist',
+//     company: 'Microsoft',
+//     imageUrl: 'https://picsum.photos/seed/sravya/400/400',
+//     linkedin: 'https://www.linkedin.com/',
+//     email: 'sravya.r@example.com'
+//   }
+// ];

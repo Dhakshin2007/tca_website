@@ -3,13 +3,13 @@ import SectionWrapper from '../components/SectionWrapper';
 import { motion, Variants, AnimatePresence } from 'framer-motion';
 import { PROFESSORS, DELEGATES, ALUMNI } from '../constants';
 import { Alumni } from '../types';
-import Icon from '../components/Icon.tsx';
+import { Icon } from '../components/Icon';
 
 const PageHeader = () => (
     <div className="relative py-24 text-center overflow-hidden">
         <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-            style={{ backgroundImage: `url(https://i.postimg.cc/kgN4XgdB/prof.webp)` }}
+            style={{ backgroundImage: `url(https://picsum.photos/seed/iit-ropar-notable/1920/1080)` }}
         >
             <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
         </div>

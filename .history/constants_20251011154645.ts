@@ -199,7 +199,7 @@ export const ALUMNI: Alumni[] = [
     company: 'ZS Associates, Pune',
     imageUrl: './satya.jpg',
     linkedin: 'https://www.linkedin.com/in/satya-prakash-gochipatla-5ba74a249/?originalSubdomain=in',
-    email: 'gsp883337@gmail.com'
+    email: 'gopi.k@example.com'
   },
   // {
   //   id: 2,

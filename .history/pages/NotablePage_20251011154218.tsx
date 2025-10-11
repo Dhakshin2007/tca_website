@@ -3,7 +3,7 @@ import SectionWrapper from '../components/SectionWrapper';
 import { motion, Variants, AnimatePresence } from 'framer-motion';
 import { PROFESSORS, DELEGATES, ALUMNI } from '../constants';
 import { Alumni } from '../types';
-import Icon from '../components/Icon.tsx';
+import { Icon,mail } from '../components/Icon.tsx';
 
 const PageHeader = () => (
     <div className="relative py-24 text-center overflow-hidden">
