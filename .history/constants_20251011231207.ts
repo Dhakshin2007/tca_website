@@ -205,10 +205,10 @@ export const ALUMNI: Alumni[] = [
     id: 2,
     name: 'Kayitha Saran Yadav',
     batch: '2021-2025',
-    currentRole: 'Planning & Operations',
-    company: 'BPCL',
-    imageUrl: './saran.jpg',
+    currentRole: 'planning & Operations',
+    company: 'Microsoft',
+    imageUrl: 'https://picsum.photos/seed/sravya/400/400',
     linkedin: 'https://www.linkedin.com/',
-    email: 'kayithasaranyad@bharatpetroleum.in'
+    email: 'sravya.r@example.com'
   }
 ];

@@ -207,8 +207,8 @@ export const ALUMNI: Alumni[] = [
     batch: '2021-2025',
     currentRole: 'Planning & Operations',
     company: 'BPCL',
-    imageUrl: './saran.jpg',
+    imageUrl: './saran',
     linkedin: 'https://www.linkedin.com/',
-    email: 'kayithasaranyad@bharatpetroleum.in'
+    email: 'sravya.r@example.com'
   }
 ];

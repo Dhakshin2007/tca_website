@@ -209,6 +209,6 @@ export const ALUMNI: Alumni[] = [
     company: 'BPCL',
     imageUrl: './saran.jpg',
     linkedin: 'https://www.linkedin.com/',
-    email: 'kayithasaranyad@bharatpetroleum.in'
+    email: 'sravya.r@example.com'
   }
 ];
